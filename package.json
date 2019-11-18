@@ -1,0 +1,21 @@
+{
+  "name": "mathjax-sanitizer",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:fknussel/mathjax-sanitizer.git",
+  "author": "Federico Knüssel <fknussel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava --watch"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "browser-env": "^3.3.0"
+  },
+  "ava": {
+    "require": [
+      "./test/_setup-browser-env.js"
+    ]
+  }
+}
